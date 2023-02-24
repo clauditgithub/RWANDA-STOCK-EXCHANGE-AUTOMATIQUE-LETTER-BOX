@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.log{
+    width: 100%;
+    background-image: url(./images/gettyimages-boite1jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200%;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+/*.logo{
+    color: darkgreen;
+    font-size: 35px;
+    font-family: Arial ;
+    padding-left: 20px; 
+    float: left;
+    padding-top: 10px; 
+}*/
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: azure;
+    position: relative;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 450px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: darkgreen;
+    font-size: 22px;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid darkgreen;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: azure;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;    
+}
+::placeholder{
+    color:azure ;
+    font-family: Arial;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: darkgreen;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: azure;
+    transition: 0.4s ease;    
+}
+.btn:hover{
+    background: azure;
+    color: darkgreen;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.liw{
+    padding-top:  15px; 
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: azure
+}
+.icons ion-icon{
+    color:azure ;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: darkgreen;
+}
